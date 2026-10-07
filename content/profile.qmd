@@ -8,7 +8,7 @@
 [GitHub](https://github.com/miloes114) ·
 [Google Scholar](https://scholar.google.com/citations?user=MZuNEEoAAAAJ&hl=en) ·
 [LinkedIn](https://www.linkedin.com/in/camilo-escobar-sierra-a17973116/) ·
-[RWTH profile](https://etox.rwth-aachen.de/?page_id=295)
+[RWTH profile](https://www.ifer.rwth-aachen.de/cms/ifer/der-lehrstuhl/team/~bhigka/mitarbeiter-pvz-/?gguid=PER-JZW92L6&allou=1)
 
 ```{=typst}
 #line(length: 100%, stroke: 0.5pt + accent)
