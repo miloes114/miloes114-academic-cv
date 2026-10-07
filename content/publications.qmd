@@ -1,0 +1,14 @@
+## Publications
+
+```{=typst}
+#set text(size: 10pt)
+#set par(spacing: 3pt, leading: 0.75em, justify: false, hanging-indent: 0.8em)
+```
+
+::: {#refs}
+:::
+
+```{=typst}
+#set text(size: 11pt)
+#set par(spacing: 0.65em, leading: 0.75em, justify: false, hanging-indent: 0pt)
+```

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="en-US">
+  <info>
+    <title>Academic CV, reverse chronological</title>
+    <id>https://github.com/miloes114/miloes114-academic-cv/cv-references</id>
+    <link href="https://github.com/miloes114/miloes114-academic-cv/cv-references" rel="self"/>
+    <updated>2026-10-07T00:00:00+00:00</updated>
+  </info>
+  <macro name="author">
+    <names variable="author">
+      <name name-as-sort-order="all" sort-separator=", " initialize-with=". " delimiter=", " and="text" delimiter-precedes-last="always"/>
+      <et-al term="et-al"/>
+    </names>
+  </macro>
+  <citation>
+    <layout>
+      <group delimiter=" ">
+        <text macro="author"/>
+        <date variable="issued" prefix="(" suffix=")"><date-part name="year"/></date>
+      </group>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="true" et-al-min="9" et-al-use-first="7">
+    <sort>
+      <key variable="issued" sort="descending"/>
+      <key macro="author"/>
+    </sort>
+    <layout suffix=".">
+      <group delimiter=". ">
+        <text macro="author"/>
+        <date variable="issued" prefix="(" suffix=")"><date-part name="year"/></date>
+        <text variable="title" quotes="true"/>
+        <text variable="container-title" font-style="italic"/>
+      </group>
+      <group delimiter=", " prefix=" ">
+        <text variable="volume" font-style="italic"/>
+        <text variable="issue" prefix="(" suffix=")"/>
+        <text variable="page"/>
+      </group>
+      <text variable="publisher" prefix=" "/>
+      <choose>
+        <if variable="DOI">
+          <text variable="DOI" prefix=" doi:"/>
+        </if>
+        <else-if variable="URL">
+          <text variable="URL" prefix=" "/>
+        </else-if>
+      </choose>
+    </layout>
+  </bibliography>
+</style>

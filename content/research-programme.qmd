@@ -1,0 +1,9 @@
+## Emerging independent research programme
+
+### Biological organisation and resilience under environmental stress
+
+My emerging independent programme investigates how environmental stress alters biological coordination across molecular, physiological, microbial and ecological layers, and where compensatory responses transition into resilience loss. Current work combines real-world environmental gradients, non-model eco-omics, multi-omics integration and reproducible environmental bioinformatics.
+
+**Current conceptual development:** Hierarchical Stress Gradient Hypothesis (Hi-SGH), an emerging framework for testing how cross-layer biological coordination changes along environmental stress gradients.
+
+**Current direction:** consolidating this programme through competitive funding, independent project development, collaborative research, teaching and supervision, with the long-term aim of establishing and funding an interdisciplinary research group.

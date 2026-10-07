@@ -1,0 +1,13 @@
+## Teaching, supervision and mentoring
+
+### University teaching
+
+**RWTH Aachen University:** teaching contributions in Limnology, Data Science, Molecular Ecotoxicology, Introduction to Environmental Sciences, and interdisciplinary scientific-skills activities.
+
+**Universidad de Antioquia:** Lecturer in River Ecology.
+
+### Supervision and mentoring
+
+Previous MSc co-supervision and ongoing mentoring and support for BSc, MSc and PhD researchers. Training and guidance includes experimental design, transcriptomics, ecotoxicogenomics, microbiome and metagenomics, environmental bioinformatics, reproducible workflows and ecological interpretation.
+
+My teaching and mentoring emphasise scientific independence, reproducible analysis and the integration of field, experimental and computational approaches.

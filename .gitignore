@@ -1,0 +1,10 @@
+.quarto/
+_site/
+pages/
+/cv.typ
+*.pdf
+Thumbs.db
+.DS_Store
+
+/.quarto/
+**/*.quarto_ipynb

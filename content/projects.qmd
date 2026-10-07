@@ -1,0 +1,24 @@
+## Projects and research development
+
+### Lead and emerging independent development
+
+**TROPECO-OMICS · 2026 · DFG–Universidad de Antioquia bilateral proposal**  
+**Status:** Under evaluation.  
+**Role:** German-side applicant and conceptual lead.
+
+Developed the project and emerging Hi-SGH framework, integrating transcriptomics, proteomics, microbiome analysis and physiology to examine transitions from adaptive compensation toward resilience loss across real-world chemical-stress gradients.
+
+### Funded research participation
+
+**MixTOX · Swedish Research Council FORMAS · 2025–present**  
+Researcher.
+
+**CRC 1439 RESIST · DFG · 2021–2024**  
+Doctoral researcher contributing research on freshwater fish responses to multiple stressors.
+
+**TAPAS · EU Horizon 2020 · 2016–2018**  
+MSc researcher contributing to research on aquaculture impacts in marine systems.
+
+### Research directions
+
+Research directions include biological resilience under environmental stress; fish ecophysiology and welfare; environmental molecular monitoring and field ecotoxicology; aquatic holobionts and microbiomes; non-model eco-omics; and reproducible environmental biology.

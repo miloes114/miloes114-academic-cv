@@ -1,0 +1,52 @@
+---
+bibliography: bibliography/publications.bib
+nocite: '@*'
+citeproc: true
+csl: bibliography/cv.csl
+---
+
+{{< include content/profile.qmd >}}
+
+{{< include content/research-programme.qmd >}}
+
+{{< include content/current-position.qmd >}}
+
+{{< include content/education.qmd >}}
+
+```{=typst}
+#pagebreak()
+```
+
+{{< include content/positions.qmd >}}
+
+{{< include content/projects.qmd >}}
+
+{{< include content/research-resources.qmd >}}
+
+```{=typst}
+#pagebreak()
+```
+
+{{< include content/publications.qmd >}}
+
+```{=typst}
+#pagebreak()
+```
+
+{{< include content/teaching.qmd >}}
+
+{{< include content/talks.qmd >}}
+
+```{=typst}
+#pagebreak()
+```
+
+{{< include content/mobility.qmd >}}
+
+{{< include content/service.qmd >}}
+
+{{< include content/skills.qmd >}}
+
+{{< include content/distinctions.qmd >}}
+
+{{< include content/languages.qmd >}}

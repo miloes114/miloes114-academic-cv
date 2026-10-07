@@ -1,0 +1,24 @@
+project:
+  title: Camilo Escobar-Sierra — Academic CV
+  output-dir: _site
+  render:
+    - cv.qmd
+
+format:
+  typst:
+    include-before-body: styles/cv.typ
+    output-file: Camilo_Escobar_Sierra_Academic_CV.pdf
+    papersize: a4
+    margin:
+      x: 18mm
+      y: 16mm
+    mainfont: Libertinus Serif
+    fontsize: 10pt
+    toc: false
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+
+lang: en

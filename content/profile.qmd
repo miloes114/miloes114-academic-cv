@@ -1,0 +1,24 @@
+# {{< var cv_name >}}
+
+**{{< var cv_role >}}**  
+{{< var cv_institute >}} · {{< var cv_university >}} · {{< var cv_location >}}
+
+[Website](https://miloes114.github.io) ·
+[ORCID](https://orcid.org/0000-0001-9105-4378) ·
+[GitHub](https://github.com/miloes114) ·
+[Google Scholar](https://scholar.google.com/citations?user=MZuNEEoAAAAJ&hl=en) ·
+[LinkedIn](https://www.linkedin.com/in/camilo-escobar-sierra-a17973116/) ·
+[RWTH profile](https://etox.rwth-aachen.de/?page_id=295)
+
+```{=typst}
+#line(length: 100%, stroke: 0.5pt + accent)
+#v(5pt)
+```
+
+## Research profile
+
+I study how environmental stress reorganises biological systems across molecular, organismal and ecological scales, and when adaptive responses give way to resilience loss. My research combines field-realistic environmental gradients with molecular ecology, integrative eco-omics and computational approaches to connect biological mechanisms with organismal performance and ecological consequences. I work primarily with aquatic organisms, communities and holobionts while developing reproducible approaches for complex and non-model biological systems.
+
+**Research fields:** Molecular ecology · Environmental stress biology · Systems ecology · Integrative eco-omics
+
+**Methods and observational tools:** Field ecology · Transcriptomics · Physiology · Microbiomes · Metagenomics · Genomics · Proteomics · Environmental bioinformatics · Network analysis · Reproducible computation

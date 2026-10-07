@@ -1,0 +1,29 @@
+## Invited talks and selected conference contributions
+
+### Invited talks
+
+**2026 · Pontificia Universidad Javeriana**  
+Invited seminar: “Omics approaches in ecology and ecotoxicology: integrating molecular responses to environmental stress in aquatic organisms.”
+
+**2026 · University of Aveiro / EPIBOOST**  
+Invited talk: “From Transcriptomic Patterns to Multi-Omic Mechanisms: Wild Exposure to Micropollutants in Freshwater Macroinvertebrates.”
+
+### Selected conference contributions
+
+**2026 · SETAC Europe, Maastricht**  
+Oral contribution on RNA-seq in the Eurasian eagle-owl.
+
+**2026 · SETAC GLB/GDCh Umwelt meeting**  
+Oral contribution on EchoGO.
+
+**2025 · SETAC Europe, Vienna**  
+Contribution on the *Gammarus pulex* transcriptome.
+
+**2025 · DGL, Frankfurt**  
+Contribution on *Cottus* transcriptomics and multiple stressors.
+
+**2023 · Symposium for European Freshwater Sciences (SEFS), Newcastle**  
+Contribution on comparative fish transcriptomics.
+
+**2022 · YOUMARES**  
+Session chair and presenter on omics applications in aquatic science.

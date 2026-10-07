@@ -1,0 +1,9 @@
+## Technical expertise
+
+**Environmental omics:** RNA-seq; de novo and reference-guided transcriptomics; functional annotation; microbiomes; metabarcoding; bacterial and viral metagenomics; genome annotation; multi-omics integration.
+
+**Computational biology:** R; Python; Unix/bash; Snakemake; high-performance computing; reproducible workflows; Quarto/R Markdown; data visualisation.
+
+**Molecular laboratory:** DNA/RNA extraction; PCR/qPCR; molecular quality control; sample preparation through sequencing workflows.
+
+**Field and organismal biology:** Freshwater and marine ecology; fish and invertebrate sampling; environmental assessment; ecotoxicology; aquaculture; environmentally realistic study design.

@@ -1,0 +1,15 @@
+## Research resources
+
+### Software and data
+
+**EchoGO** · Open-source framework for annotation-context-aware functional interpretation in non-model ecotoxicogenomics.  
+Role: lead conceptual development, workflow design and implementation.  
+[GitHub repository](https://github.com/miloes114/EchoGo) · [Zenodo record](https://doi.org/10.5281/zenodo.17660708)
+
+**Gammarus pulex de novo transcriptomic resource** · Peer-reviewed transcriptome assembly and annotation for ecotoxicogenomics.
+
+**Holtemme Gammarus ecotoxicogenomics reproducible research compendium** · [Public GitHub repository](https://github.com/miloes114/holtemme-gammarus-ecotoxicogenomics)
+
+### Science communication
+
+Science communication for broad audiences, including an explainer article for *Frontiers for Young Minds*.

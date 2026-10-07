@@ -1,0 +1,89 @@
+name: Render and publish academic CV
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "cv.qmd"
+      - "_quarto.yml"
+      - "_variables.yml"
+      - "content/**"
+      - "bibliography/**"
+      - "styles/**"
+      - ".github/workflows/render-cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18
+
+      - name: Render PDF
+        run: quarto render cv.qmd
+
+      - name: Verify PDF
+        run: test -s _site/Camilo_Escobar_Sierra_Academic_CV.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: academic-cv-pdf
+          path: _site/Camilo_Escobar_Sierra_Academic_CV.pdf
+          if-no-files-found: error
+
+      - name: Prepare Pages directory
+        run: |
+          mkdir -p pages
+          cp _site/Camilo_Escobar_Sierra_Academic_CV.pdf pages/
+          cat > pages/index.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Camilo Escobar-Sierra, PhD — Academic CV</title>
+          </head>
+          <body>
+            <main>
+              <h1>Camilo Escobar-Sierra, PhD</h1>
+              <p>Academic CV</p>
+              <p><a href="Camilo_Escobar_Sierra_Academic_CV.pdf">View / download latest CV</a></p>
+              <p><a href="https://miloes114.github.io">Personal website</a></p>
+            </main>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
