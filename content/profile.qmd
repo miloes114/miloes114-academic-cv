@@ -3,7 +3,7 @@
 **{{< var cv_role >}}**  
 {{< var cv_institute >}} · {{< var cv_university >}} · {{< var cv_location >}}
 
-[Website](https://miloes114.github.io) ·
+[Website](https://camiloescobarsierra.com) ·
 [ORCID](https://orcid.org/0000-0001-9105-4378) ·
 [GitHub](https://github.com/miloes114) ·
 [Google Scholar](https://scholar.google.com/citations?user=MZuNEEoAAAAJ&hl=en) ·

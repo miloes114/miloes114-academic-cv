@@ -2,9 +2,9 @@
 
 Source for my public academic CV, built with **Quarto**, **Typst** and **BibTeX**.
 
-- **CV landing page:** https://miloes114.github.io/miloes114-academic-cv/
-- **Direct PDF:** https://miloes114.github.io/miloes114-academic-cv/Camilo_Escobar_Sierra_Academic_CV.pdf
-- **Academic website:** https://miloes114.github.io
+- **CV landing page:** https://camiloescobarsierra.com/miloes114-academic-cv/
+- **Direct PDF:** https://camiloescobarsierra.com/miloes114-academic-cv/Camilo_Escobar_Sierra_Academic_CV.pdf
+- **Academic website:** https://camiloescobarsierra.com
 
 The CV is organised as modular Quarto content, with publications maintained in BibTeX and the final PDF rendered automatically through GitHub Actions.
 
