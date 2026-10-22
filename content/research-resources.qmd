@@ -2,9 +2,9 @@
 
 ### Software and data
 
-**EchoGO** · Open-source framework for annotation-context-aware functional interpretation in non-model ecotoxicogenomics.  
+**EchoGO** · Open-source framework for annotation-context-aware functional interpretation in transcriptomics.  
 Role: lead conceptual development, workflow design and implementation.  
-[GitHub repository](https://github.com/miloes114/EchoGo) · [Zenodo record](https://doi.org/10.5281/zenodo.17660708)
+[MethodsX paper](https://doi.org/10.1016/j.mex.2026.104222) · [GitHub repository](https://github.com/miloes114/EchoGo) · [Zenodo software archive](https://doi.org/10.5281/zenodo.17658714)
 
 **Gammarus pulex de novo transcriptomic resource** · Peer-reviewed transcriptome assembly and annotation for ecotoxicogenomics.
 
